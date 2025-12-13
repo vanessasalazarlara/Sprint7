@@ -22,7 +22,7 @@ if args.info:
     print('dimensiones de la imagen de entrada:', im.size)
 
 # gira la imagen en un ángulo proporcionado como argumento
-rotated = im.rotate(args.angle, expand= True)
+rotated = im.rotate(args.angle, expand = True)
 print('dimensiones de la imagen de salida:', rotated.size)
 
 # guarda la imagen girada usando la ruta de salida de un argumento output_file
